@@ -3,9 +3,9 @@ import { getFilters, setFilters } from "./filters";
 
 console.log(getFilters());
 
-// setFilters({
-//   searchText: "beach",
-//   sortBy: "byCreated",
-// });
+ setFilters({
+   searchText: "beach",
+   sortBy: "byCreated",
+ });
 
-// console.log(getFilters());
+console.log(getFilters());

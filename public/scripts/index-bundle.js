@@ -5284,7 +5284,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _notes = __webpack_require__(/*! ./notes */ \"./src/notes.js\");\n\nvar _filters = __webpack_require__(/*! ./filters */ \"./src/filters.js\");\n\nconsole.log((0, _filters.getFilters)());\n\n// setFilters({\n//   searchText: \"beach\",\n//   sortBy: \"byCreated\",\n// });\n\n// console.log(getFilters());\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _notes = __webpack_require__(/*! ./notes */ \"./src/notes.js\");\n\nvar _filters = __webpack_require__(/*! ./filters */ \"./src/filters.js\");\n\nconsole.log((0, _filters.getFilters)());\n\n(0, _filters.setFilters)({\n  searchText: \"beach\",\n  sortBy: \"byCreated\"\n});\n\nconsole.log((0, _filters.getFilters)());\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
